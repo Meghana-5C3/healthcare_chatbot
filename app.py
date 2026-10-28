@@ -5,7 +5,7 @@ from groq import Groq
 st.title("🩺 Health Assistant")
 st.caption("Ask health-related questions")
 
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+client = Groq(api_key=st.secrets["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"])
 
 SYSTEM_PROMPT = """
 You are a Health Assistant.
